@@ -9,14 +9,26 @@ body {
     overflow: hidden;
 }
 
+.navbar image {
+    margin: 0;
+    padding: 0;
+    float: left;
+    <a href="default.asp">
+    <img src="C:\Users\parne\Downloads\TheBushDietitian-main\TheBushDietitian-main\images\BD logo - veg.jpg" alt="Bush Logo" style="width:42px;height:42px;">
+  </a>
+
+
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    float: right;
 }
 
 .navbar ul li {
-    float: left;
+    float: right;
 }
 
 .navbar ul li a {
@@ -37,12 +49,12 @@ body {
 
 .floating-banner {
     position: fixed;
-    top: 10px;
+    top: 0%;
     left: 50%;
     transform: translateX(-50%);
     background-color: purple;
     color: white;
-    padding: 10px 20px;
+    padding: 14px 10px;
     border-radius: 5px;
 }
 
