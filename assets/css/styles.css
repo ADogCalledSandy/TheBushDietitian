@@ -1,5 +1,16 @@
+@font-face {
+    font-family: 'Vladimir'; /* Name your font family */
+    src: url('assets/css/Fonts/VLADIMIR.TTF'); /* Locate the .ttf file within your directory*/
+  }
+  
+  @font-face {
+    font-family: 'CrimsonPro'; /* Name your font family */
+    src: url('assets/css/Fonts/Crimson_Pro/static/CrimsonPro-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: CrimsonPro;
     margin: 0;
     padding: 0;
 }
@@ -13,11 +24,8 @@ body {
     margin: 0;
     padding: 0;
     float: left;
-    <a href="default.asp">
-    <img src="C:\Users\parne\Downloads\TheBushDietitian-main\TheBushDietitian-main\images\BD logo - veg.jpg" alt="Bush Logo" style="width:42px;height:42px;">
-  </a>
-
-
+   { <img src="images/BD logo - veg.jpg" alt="Lights" class="w3-image">;
+  </a>}
 }
 
 .navbar ul {
@@ -33,6 +41,7 @@ body {
 
 .navbar ul li a {
     display: block;
+    font-family: Vladimir;
     color: white;
     text-align: center;
     padding: 14px 16px;
