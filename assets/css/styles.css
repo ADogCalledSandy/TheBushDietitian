@@ -1,31 +1,38 @@
-@font-face {
-    font-family: 'Vladimir'; /* Name your font family */
-    src: url('assets/css/Fonts/VLADIMIR.TTF'); /* Locate the .ttf file within your directory*/
+font-face {
+    font-family: 'Vladimir';
+    src: url('assets/css/Fonts/VLADIMIR.TTF'); /* Locate the .ttf file*/
   }
   
-  @font-face {
-    font-family: 'CrimsonPro'; /* Name your font family */
-    src: url('assets/css/Fonts/Crimson_Pro/static/CrimsonPro-Regular.ttf'); /* Locate the .ttf file within your directory*/
+font-face {
+    font-family: 'CrimsonPro';
+    src: url('assets/css/Fonts/Crimson_Pro/static/CrimsonPro-Regular.ttf'); /* Locate the .ttf file*/
   }
 
-
-body {
+p {
     font-family: CrimsonPro;
-    margin: 0;
-    padding: 0;
+    font-size: medium;
+    margin: 0%;
+}
+
+h1 {
+    font-family: Vladimir;
+    font-size: x-large;
 }
 
 .navbar {
     background-color: #333;
     overflow: hidden;
+    margin-top: 0%;
+    vertical-align: top;
 }
 
-.navbar image {
-    margin: 0;
-    padding: 0;
-    float: left;
-   { <img src="images/BD logo - veg.jpg" alt="Lights" class="w3-image">;
-  </a>}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    /*margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    /*margin-bottom: 15px; */
 }
 
 .navbar ul {
@@ -44,14 +51,62 @@ body {
     font-family: Vladimir;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    margin: 20px;
+    padding: 18px 16px;
     text-decoration: none;
 }
 
 .navbar ul li a:hover {
     background-color: #111;
+    text-decoration: underline;
 }
 
+
+.socialmedia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    width: 50;
+    height: 50;
+    float: left;
+}
+
+.socialmedia ul li {
+    float: right;
+}
+
+.socialmedia ul li a {
+    display: block;
+    font-family: Vladimir;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.socialmedia ul li a:hover {
+    background-color: #111;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+/* Add hover effect*/
+.fa:hover {
+    opacity: 0.7;
+  }
+  /* Set specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
 .main-content {
     padding: 20px;
 }
